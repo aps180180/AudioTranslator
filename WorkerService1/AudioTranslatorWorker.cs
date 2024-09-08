@@ -25,7 +25,7 @@ namespace AudioTranslatorWorker
 
         public override async Task StartAsync(CancellationToken cancellationToken)
         {
-
+            
             _logger.LogInformation("Service is starting.");
             // Initialize the audio capture device
             var audioConfig = AudioConfig.FromDefaultMicrophoneInput();
